@@ -104,7 +104,9 @@ class Ventoinha {
         if(this._estado == false&& novoEstado == "ligar"){
             this._estado = true
         }
-        else if(this._estado == true && novoEstado == "desligar")
+        else if(this._estado == true && novoEstado == "desligar"){
+            
+        }
     }
     toString(){
         if(this.estado == false){
